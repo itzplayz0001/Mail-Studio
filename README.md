@@ -1,2 +1,2 @@
 # Mail-Studio
-Create html mails and test them, Built with C# all you need to do is put in your html code and hit the send button :) Open Source Application coded by me
+With mail studio you can test your HTML code to work on an email! This project was just to help people trying to make a flawless mail!
