@@ -17,6 +17,7 @@ namespace Mail_Studio
     public partial class Home : Form
     {
         public Home()
+        // https://github.com/itzplayz0001
         {
             InitializeComponent();
         }
@@ -41,9 +42,11 @@ namespace Mail_Studio
                 //System.Net.Mail.Attachment attachment;
                 //attachment = new System.Net.Mail.Attachment(path.Text);
                 //mail.Attachments.Add(attachment);
+                
+                // REMOVE THE COMMENTS FOR THE FUNCTIONAL USE OF ATTACHMENTS!
 
                 smtp.Port = 587;
-                smtp.Credentials = new System.Net.NetworkCredential("services.mailstudio@gmail.com", "mailstudio@ms");
+                smtp.Credentials = new System.Net.NetworkCredential("services.mailstudio@gmail.com", "M*******"); // here M******* is the password, it's not the real one 
                 smtp.EnableSsl = true;
                 smtp.Send(mail);
                 MessageBox.Show("Email Sent!");
